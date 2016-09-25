@@ -39,16 +39,12 @@ public class AppTest
 		//given
 		//"yyyy-MM-dd"
 		String year = givenDate.substring(0,4);
-<<<<<<< HEAD
+
 		System.out.println("Urodzilas sie miesiaca: "+ year);
 		String month = givenDate.substring(5, 7);
 		System.out.println("Urodzilas sie miesiaca: "+ month);
 		String day = givenDate.substring(8,10);
 		System.out.println("Urodzilas sie miesiaca: "+ day);
-=======
-		String month = givenDate.substring(6, 7);
-		String day = givenDate.substring(8,9);
->>>>>>> branch 'master' of https://github.com/JolantaWojcik/DateServiceTest.git
 		
 		int yearNr = Integer.parseInt(year);
 		int monthNr = Integer.parseInt(month);
